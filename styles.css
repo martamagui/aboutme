@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Urbanist', sans-serif;
+}
+p{
+    font-size: 1.8vh;
+}
+body{
+    width: 100vw;
+	height: 100vh;
+	background: linear-gradient(334deg,#ffff, #039B99, #02273A);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+}
+
+.aboutme{
+    transform: translateY(-5vw);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutme__img{
+    display: flex;
+    justify-content: center;
+    z-index:2;
+    align-self: center;
+    width: 30%;
+    transform: translateY(9vw);
+    box-sizing: content-box;
+}
+.aboutme__card__name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4vh;
+}
+.aboutme__card__text{
+    padding-top: 2vh;
+}
+
+.aboutme__img img{
+    border-radius: 50%;
+    width: 50%;
+    box-shadow: 2px 2px 7px #01203086;
+}
+.aboutme__card{
+    margin-top: 5vw;
+    margin-right: 25vw;
+    margin-left: 25vw;
+
+    padding: 5vw;
+    background-color: #ffff;
+    border-radius: 0.5vw;
+}
+
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
