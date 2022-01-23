@@ -46,7 +46,7 @@ h2 {
 .aboutme__img img {
   border-radius: 50%;
   width: 50%;
-  box-shadow: 2px 2px 7px #232c3086;
+  box-shadow: 2px 6px 7px #232c3086;
 }
 .aboutme__card {
   margin-top: 5vw;
